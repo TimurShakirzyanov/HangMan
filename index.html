@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Виселица</title>
+    <link rel="shortcut icon" href="гыы.jpg" type="image/webp">
+ <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="modal">
+        <form action="">
+            <h1>ВНИМАНИЕ</h1>
+            <p>ШЛЁПА СЪЕЛ НАСТРОЙКИ И СЪЕСТ ВАШ ЭКРАН>:)</p>
+        </form>
+    </div>
+    <img src="siniy-ekran-smerti-na-windows-7.jpg" id="windows" alt="">
+    <form action="">
+        <h1 id="title">Виселица | Шлёпа-ковбой хочет тебя повесить, отгадай слово чтобы выжить!
+            (Чтобы игра отображалась коректно включите F11)
+        </h1>
+        <img id = "hangman" src="hangman0.png" alt="">
+        <p id="p">Ш _ _ _ А</p>
+        <input id="input" type="text" placeholder="?" maxlength="1">
+        <button id="button">Проверить букву</button>
+        <button id="newButton">Новая игра</button>
+        <button id="setting">⚙️</button>
+        <p id="usedLetters">использованные буквы:</p>
+    </form>
+    <!-- type="module" нужен для того чтобы импортировать словарь из words.js -->
+    <script src="script.js" type="module"></script>
+</body>
+</html>
+<!--Выводить сообщение вас съел шлёпа если вы были повешены-->
